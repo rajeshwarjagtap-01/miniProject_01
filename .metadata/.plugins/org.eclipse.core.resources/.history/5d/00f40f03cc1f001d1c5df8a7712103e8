@@ -1,0 +1,8 @@
+package com.repo;
+
+import org.h2.table.Plan;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface planRepo extends JpaRepository <Plan,Integer> {
+
+}

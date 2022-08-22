@@ -1,0 +1,70 @@
+package com.serviceImp;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.plan;
+import com.example.demo.plancategory;
+import com.repo.planRepo;
+import service.planService;
+import com.repo.plancategoryRepo;
+@Service
+public class planServiceImp implements planService {
+
+	@Autowired
+	private planRepo planRepo;
+	 
+	@Autowired
+	private plancategoryRepo plancategoryRepo;
+	
+	@Override
+	public Map<Integer, String> allplancategory() {
+		List<plancategory> cmap=plancategoryRepo.findAll();
+		
+		return null;
+	}
+
+	@Override
+	public List<plan> showallplan() {
+		List<plan> abc=planRepo.findAll();
+		return abc;
+	}
+
+	@Override
+	public boolean createplan(plan plan) {
+		      plan saved  = planRepo.save(plan);
+		     
+	}
+
+	@Override
+	public plan getplanbyId(Integer pid) {
+		    Optional<plan> plan1= planRepo.findById(pid);
+		    if(plan1.isPresent()) {
+		    	return plan.get();
+		    }
+		return null;
+	}
+
+	@Override
+	public boolean updateplan(plan plan) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean deleteplan(Integer pid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean changestatus(Integer pid, String Active_switch) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

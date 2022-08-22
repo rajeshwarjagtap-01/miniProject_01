@@ -1,0 +1,30 @@
+package com.entity;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class plan {
+	
+	@Id
+	@GeneratedValue
+	private Integer pid;
+	private String planame;
+	private Date startdate;
+	private Date enddate;
+	private Integer pcid;
+	private String sw;
+	private String createdby;
+	private Date createddate;
+	private String updatedby;
+	private Date updatedate;
+	
+	
+
+}

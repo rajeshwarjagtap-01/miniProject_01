@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="mini_01"/>
+<aop-project name="test"/>
+<aop-project name="springbbotbyvscode"/>
+</aop-reference-model>

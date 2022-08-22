@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import javax.persistence.Entity;
+
+@Entity
+public class book {
+
+	@id
+	private int bid;
+	private String name ;
+	
+	
+}

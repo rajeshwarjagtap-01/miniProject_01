@@ -1,0 +1,27 @@
+package com.entity;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class plancategory {
+
+	@Id
+	@GeneratedValue
+private Integer pcid;
+private String plancategoryName;
+private	String createby;
+private Date createddate;
+private	Date updateddate;
+private	String updatedby;
+private	String sw;
+
+	
+	
+}

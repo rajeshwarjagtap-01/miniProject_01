@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.entity.plan"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.entity.plancategory"/>
+<fullyQualifiedTypeName name="service.plan"/>
+<fullyQualifiedTypeName name="com.repo.planRepo"/>
+<fullyQualifiedTypeName name="com.example.demo.plancategory"/>
+<fullyQualifiedTypeName name="com.example.demo.plan"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="io.swagger.models.Tag"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.ApiInfo"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.ApiInfoBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+<fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.PathSelectors"/>
+</qualifiedTypeNameHistroy>
